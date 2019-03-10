@@ -130,6 +130,7 @@ class HomeController extends Controller
         $string = str_shuffle($pin);
 
         $addShipment['tracking_no'] = $string;
+        $addShipment['user_id'] = Auth::user()->id;
 
         // dd($addShipment);
 
@@ -140,8 +141,8 @@ class HomeController extends Controller
 
     public function details()
     {
-        $id = Auth::user()->id;
-        $details = Shipping::where('id', $id)->get();
+        // $id = Auth::user()->id;
+        $details = Shipping::whereUserId(Auth::id())->get()->sortByDesc('created_at');
         return view('frontend.details', [
             'details' => $details
         ]);
@@ -161,5 +162,9 @@ class HomeController extends Controller
         return view('frontend.contact_us');
     }
 
-
+    public function destroy($id)
+    {
+        Shipping::where('id', $id)->delete();
+        return back();
+    }
 }

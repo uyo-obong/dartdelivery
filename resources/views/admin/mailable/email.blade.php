@@ -229,7 +229,7 @@
                                                     <span class="header">Bob Erlicious</span> <br>
                                                     123 Bobby Drive <br>
                                                     Victoria, BC <br>
-                                                    V9A 8P8 <br>
+                                                    V9A 8P8, US <br>
                                                 </td>
                                             </tr>
                                         </table>

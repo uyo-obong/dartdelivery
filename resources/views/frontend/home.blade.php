@@ -14,7 +14,6 @@
                     <form action="{{ route('homeconfirm')}}" method="post" >
                         {{ csrf_field() }}
                         {{ method_field('get')}}
-
                         <div class="input-group">
                             <input type="text" name="track" class="form-control border border-right-0" placeholder="Tracking Number">
 
@@ -23,8 +22,6 @@
                          </span>
                      </div>
                  </form>
-
-
              </div>
          </div>
      </div>

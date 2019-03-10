@@ -26,6 +26,7 @@ Route::get('invalid-tracking-number', 'Frontend\HomeController@invalid')->name('
 Route::get('send-parcel', 'Frontend\HomeController@delivery')->name('homeDelivery');
 Route::post('send', 'Frontend\HomeController@store')->name('homeStore');
 Route::get('details', 'Frontend\HomeController@details')->name('homeDetails');
+Route::delete('homedelete/{id}',  'Frontend\HomeController@destroy')->name('homeDestroy');
 
 
 

@@ -10,3 +10,18 @@
 .has-success{
 	color: green;
 }
+
+.swal2{
+	display: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 32em;
+    max-width: 100%;
+    padding: 1.25em;
+    border-radius: .3125em;
+    background: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
