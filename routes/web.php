@@ -69,7 +69,7 @@ Route::post('send-mail', 'SendQuoteController@sendMail')->name('sendMail');
 Route::get('admin-login', 'adminAuth\Auth\LoginController@showLoginForm')->name('adminView');
 Route::post('admin-login', 'adminAuth\Auth\LoginController@login')->name('adminLogin');
 Route::post('admin-logout', 'adminAuth\Auth\LoginController@logout')->name('adminLogout');
-Route::get('admin-register', 'adminAuth\Auth\RegisterController@showRegistrationForm')->name('adminViewReg');
+Route::get('admin-reg', 'adminAuth\Auth\RegisterController@showRegistrationForm')->name('adminViewReg');
 Route::post('admin-register', 'adminAuth\Auth\RegisterController@register')->name('adminRegister');
 
 //Manage Admin

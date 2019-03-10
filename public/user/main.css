@@ -1,112 +1,123 @@
 body {
-    background-color:rgb(255, 255, 255);
+  background-color:rgb(255, 255, 255);
 }
 /* styling for nav */
 .nav-item {
-    padding-left:8px !important;
-    padding-right: 5px !important;
+  padding-left:8px !important;
+  padding-right: 5px !important;
+}
+
+.active {
+  border:solid blue !important;
+  border-top:1px;
+  border-left:0px !important;
+  border-right:0px !important;
+  border-bottom:0px !important;
+  color:blue !important;
+  transition: ease-in 0.3s !important; 
+  
 }
 .nav-item:hover {
-    border:solid blue !important;
-    border-top:1px;
-    border-left:0px !important;
-    border-right:0px !important;
-    border-bottom:0px !important;
-    color:blue !important;
-    transition: ease-in 0.3s !important; 
+  border:solid blue !important;
+  border-top:1px;
+  border-left:0px !important;
+  border-right:0px !important;
+  border-bottom:0px !important;
+  color:blue !important;
+  transition: ease-in 0.3s !important; 
 }
 .nav-link {
-    font-weight:600 !important;
-    font-style: bold;
-    font-family: sans-serif;
-    color:white !important;
+  font-weight:600 !important;
+  font-style: bold;
+  font-family: sans-serif;
+  color:white !important;
 }
 .nav-link:hover {
-    color:blue !important;
+  color:blue !important;
 }
 /* styling for home page header */
 #header {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/header.jpg');
-    height:660px;
-    background-size: cover;
-    background-position: center center;
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/header.jpg');
+  height:660px;
+  background-size: cover;
+  background-position: center center;
 }
 .home_header {
-    padding-top:170px;
+  padding-top:170px;
 }
 @media(max-width:768px) {
-    #header {
+  #header {
     background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/header.jpg');
     height:500px;
     background-size: cover;
     background-position: center center;
-}
-#contact {
+  }
+  #contact {
     background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/contact.jpg');
     height:500px;
     background-size: cover;
     background-position: center center;
-}
-    .home_header {
+  }
+  .home_header {
     padding-top:150px;
-}
-.card {
+  }
+  .card {
     width:16rem !important;
-}
-.header_header {
+  }
+  .header_header {
     font-size:35px !important;
     color:white;
     font-family: inherit;
     /* font-family: roboto; */
-}
+  }
 }
 .header_header {
-    font-size:45px;
-    color:white;
-    font-family: inherit;
-    /* font-family: roboto; */
+  font-size:45px;
+  color:white;
+  font-family: inherit;
+  /* font-family: roboto; */
 }
 .header_para {
-    font-size:15px;
-    font-weight:500px !important;
-    color:white;
-     font-family: inherit;
+  font-size:15px;
+  font-weight:500px !important;
+  color:white;
+  font-family: inherit;
 }
 .track {
-    border-top-left-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
 }
 .service_icon {
-    font-size: 33px;
-    
+  font-size: 33px;
+  
 }
 /* styling for homepage second header */
 
 .home_secondHead {
-    font-weight: 700;
-    font-size:25px !important;
-    font-family:inherit !important;
+  font-weight: 700;
+  font-size:25px !important;
+  font-family:inherit !important;
 }
 .home_secondPara {
-    font-weight: 500;
-    font-size:15px !important;
-    font-family:inherit !important;
+  font-weight: 500;
+  font-size:15px !important;
+  font-family:inherit !important;
 }
 
 /* styling for home third section */
 
 #home_third {
-    background-color:#eee;
+  background-color:#eee;
 }
 .card_head { 
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
 }
 .card_para {
-    color: #5f5f5f !important;
-    font-family: 'Poppins', sans-serif !important;
-    line-height: 24px !important;
+  color: #5f5f5f !important;
+  font-family: 'Poppins', sans-serif !important;
+  line-height: 24px !important;
 }
 
 
@@ -116,10 +127,10 @@ body {
 
 
 #track {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/track.jpg');
-    height:660px;
-    background-size: cover;
-    background-position: center center;
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/track.jpg');
+  height:660px;
+  background-size: cover;
+  background-position: center center;
 }
 
 
@@ -130,16 +141,16 @@ body {
 
 
 #company {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/company.jpg');
-    height:660px;
-    background-size: cover;
-    background-position: center center;
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/company.jpg');
+  height:660px;
+  background-size: cover;
+  background-position: center center;
 }
 .company_head {
-    font-size: 20px !important;
+  font-size: 20px !important;
 }
 .company_head:hover {
-   color:blue
+ color:blue
 }
 .middle {
   transition: .5s ease;
@@ -187,95 +198,95 @@ body {
   padding: 10px 20px;
 }
 .icon {
-    color:white !important;
+  color:white !important;
 }
- /* styling for contact page  */
- #contact {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/contact.jpg');
-    height:660px;
-    background-size: cover;
-    background-position: center center;
+/* styling for contact page  */
+#contact {
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/contact.jpg');
+  height:660px;
+  background-size: cover;
+  background-position: center center;
 }
 .contact_icon {
-    /* background-color: rgb(245, 245, 245) !important; */
-    font-size:25px;
+  /* background-color: rgb(245, 245, 245) !important; */
+  font-size:25px;
 }
 
 
 /* styling for sign up page */
 .sign {
-    margin:auto !important;
+  margin:auto !important;
 }
 #sign_body {
-    background: #eee;
+  background: #eee;
 }
 #form_body {
-    background:white;
+  background:white;
 }
 .login {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 
 
 /* styling for order section */
- #invalid {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/order.jpg');
-    height:660px;
-    background-size: cover;
-    background-position: center center;
+#invalid {
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/order.jpg');
+  height:660px;
+  background-size: cover;
+  background-position: center center;
 }
 /* stlyling for faq page */
 #faq_section {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
-    height:660px;
-    background-size: cover;
-    background-position: center center;
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
+  height:660px;
+  background-size: cover;
+  background-position: center center;
 }
 
 /* styling for details page */
 #details {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/search-result.jpg');
-    height:400px;
-    background-size: cover;
-    background-position: center center;
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/search-result.jpg');
+  height:400px;
+  background-size: cover;
+  background-position: center center;
 }
 @media(max-width : 320px) {
-    #details {
+  #details {
     background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/search-result.jpg');
     height:350px;
     background-size: cover;
     background-position: center center;
-}
+  }
 }
 /* styling for delivery page */ 
 #delivery {
-    background: url('/images/user/search-booking.jpg');
-    height:400px;
-    background-size: cover;
-    background-position: center center;
+  background: url('/images/user/search-booking.jpg');
+  height:400px;
+  background-size: cover;
+  background-position: center center;
 }
 
 /*Styling for register page*/
 #register {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
-    height: auto;
-    background-size: cover;
-    background-position: center fixed;
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
+  height: auto;
+  background-size: cover;
+  background-position: center fixed;
 }
 
 /*Styling for login page*/
 #login1 {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
-    height: auto;
-    background-size: cover;
-    background-position: center cover;
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
+  height: auto;
+  background-size: cover;
+  background-position: center cover;
 }
 
 /*Styling for Reset Paasowrd page*/
 #reset {
-    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
-    height: 573px;
-    background-size: cover;
-    background-position: center cover;
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
+  height: 573px;
+  background-size: cover;
+  background-position: center cover;
 }

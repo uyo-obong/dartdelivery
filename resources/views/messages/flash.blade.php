@@ -12,6 +12,7 @@
             });
 
             swalWithBootstrapButtons.fire({
+                title: 'Successfull!',
                 text: '{{ session()->get('Usershipping') }}',
                 type: 'success',
                 confirmButtonText: 'OK'

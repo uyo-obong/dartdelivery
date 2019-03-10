@@ -12,7 +12,7 @@
                 <a class="nav-link" href="/">Home</a>
             </li>
 
-            <li class="nav-item {{ request()->is('track') || request()->is('invalid-tracking-number') ? 'active' : '' }}">
+            <li class="nav-item {{ request()->is('track') || request()->is('confirm') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('hometrack') }}">Track my parcel</a>
             </li>
             <li class="nav-item {{ request()->is('company')  ? 'active' : '' }}">

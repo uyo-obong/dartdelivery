@@ -136,7 +136,7 @@ class HomeController extends Controller
 
         Shipping::create($addShipment);
 
-        return redirect()->back()->with('Usershipping', 'Your Shipping Has Been Added Successfully!.');
+        return redirect()->back()->with('Usershipping', 'Your Shipping Has Been Added, check your e-mail for price quote.');
     }
 
     public function details()

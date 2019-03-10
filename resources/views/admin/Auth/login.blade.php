@@ -44,13 +44,8 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
                 <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a href="register.html" class="nav-link">
-                            <i class="nc-icon nc-book-bookmark"></i> Register
-                        </a>
-                    </li>
                     <li class="nav-item  active ">
-                        <a href="{{ route('adminView') }}" class="nav-link">
+                        <a href="{{ route('adminLogin') }}" class="nav-link">
                             <i class="nc-icon nc-tap-01"></i> Login
                         </a>
                     </li>
@@ -81,7 +76,8 @@
                                             <i class="nc-icon nc-single-02"></i>
                                         </span>
                                     </div>
-                                    <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
+                                    <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" 
+                                    required autofocus placeholder="E-mail Address">
 
                                     @if ($errors->has('email'))
                                     <span class="invalid-feedback" role="alert">
@@ -95,7 +91,7 @@
                                         <i class="nc-icon nc-key-25"></i>
                                     </span>
                                 </div>
-                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required placeholder="Password">
 
                                 @if ($errors->has('password'))
                                 <span class="invalid-feedback" role="alert">
@@ -137,7 +133,7 @@
                     ©
                     <script>
                       document.write(new Date().getFullYear())
-                  </script>, made with <i class="fa fa-heart heart"></i> by Creative Legendary
+                  </script>, made with <i class="fa fa-heart heart"></i> by Legendary
               </span>
           </div>
       </div>

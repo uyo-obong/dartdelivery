@@ -46,12 +46,12 @@
 			<div class="collapse navbar-collapse justify-content-end" id="navigation">
 				<ul class="navbar-nav">
 					<li class="nav-item  active ">
-						<a href="register.html" class="nav-link">
+						<a href="{{ route('adminViewReg') }}" class="nav-link">
 							<i class="nc-icon nc-book-bookmark"></i> Register
 						</a>
 					</li>
 					<li class="nav-item ">
-						<a href="login.html" class="nav-link">
+						<a href="{{ route('adminView') }}" class="nav-link">
 							<i class="nc-icon nc-tap-01"></i> Login
 						</a>
 					</li>
@@ -72,9 +72,9 @@
 									<i class="nc-icon nc-atom"></i>
 								</div>
 								<div class="description">
-									<h5 class="info-title">Built Audience</h5>
+									<h5 class="info-title">Warning One</h5>
 									<p class="description">
-										There is also a Fully Customizable CMS Admin Dashboard for this product.
+										For no reason you should share this register url with another person.
 									</p>
 								</div>
 							</div>
@@ -84,9 +84,9 @@
 									<i class="nc-icon nc-atom"></i>
 								</div>
 								<div class="description">
-									<h5 class="info-title">Built Audience</h5>
+									<h5 class="info-title">Warning Two</h5>
 									<p class="description">
-										There is also a Fully Customizable CMS Admin Dashboard for this product.
+										If incase you lost your password, contact me in other to change it for you.
 									</p>
 								</div>
 							</div>
@@ -160,8 +160,8 @@
 											</label>
 										</div>
 										<div class="card-footer ">
-									<button href="#pablo" class="btn btn-info btn-round">Sign Up</button>
-								</div>
+											<button href="#pablo" class="btn btn-info btn-round">Sign Up</button>
+										</div>
 									</form>
 								</div>
 								
@@ -170,6 +170,8 @@
 					</div>
 				</div>
 			</div>
+			<br>
+			<br>
 			<footer class="footer footer-black  footer-white ">
 				<div class="container-fluid">
 					<div class="row">
@@ -185,7 +187,7 @@
 								©
 								<script>
 									document.write(new Date().getFullYear())
-								</script>, made with <i class="fa fa-heart heart"></i> by Creative Legendary
+								</script>, made with <i class="fa fa-heart heart"></i> by Legendary
 							</span>
 						</div>
 					</div>
