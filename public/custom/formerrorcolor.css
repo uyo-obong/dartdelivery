@@ -1,0 +1,12 @@
+.form-group.has-danger .error {
+	color: #ef8157;
+}
+
+.has-danger .form-control {
+	background-color: #ffc0a4;
+	color: #ef8157;
+}
+
+.has-success{
+	color: green;
+}

@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cd73f60-b29d-458e-9f3e-4b9f480527a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../E-commerce/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/CategoryProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/CategoryProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Coupon.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Coupon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/CheckoutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/CouponController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/CouponController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Mail/OrderMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Mail/OrderMail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/ShopCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/ShopCart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Widgets/Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Widgets/Categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/Widgets/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/Widgets/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/app/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/hooks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/image.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/scout.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/scout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/voyager-hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/voyager-hooks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/config/voyager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/config/voyager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2016_01_01_000000_create_pages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2016_01_01_000000_create_pages_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2016_01_01_000000_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2016_01_01_000000_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2016_02_15_204651_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2016_02_15_204651_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2017_04_11_000000_alter_post_nullable_fields_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2017_04_11_000000_alter_post_nullable_fields_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_12_141836_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_12_141836_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_18_042515_create_carts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_18_042515_create_carts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_21_210501_create_orders_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_21_210501_create_orders_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_23_142022_create_category_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_23_142022_create_category_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_24_032710_create_category_product_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_24_032710_create_category_product_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_25_031846_create_coupons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_25_031846_create_coupons_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_31_151727_add_quantity_to_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_10_31_151727_add_quantity_to_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_11_02_141512_add_quantities_to_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_11_02_141512_add_quantities_to_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_11_05_153407_add_email_to_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/migrations/2018_11_05_153407_add_email_to_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/CategoriesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/CategoriesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/CategoryTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/CategoryTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/CouponTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/CouponTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/DataRowsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/DataRowsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/DataTypesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/DataTypesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/MenuItemsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/MenuItemsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/MenusTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/MenusTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/PagesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/PagesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/PermissionRoleTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/PermissionRoleTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/PermissionsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/PermissionsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/PostsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/PostsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/ProductTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/ProductTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/RolesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/RolesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/SettingsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/SettingsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/TranslationsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/TranslationsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/UserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/UserTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/VoyagerDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/VoyagerDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/database/seeds/VoyagerDummyDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/database/seeds/VoyagerDummyDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/hooks/hooks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/hooks/hooks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/bootstrap-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/bootstrap-responsive.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/css/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/img/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/img/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/js/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/js/checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/svg/403.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/svg/403.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/svg/404.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/svg/404.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/svg/500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/svg/500.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/svg/503.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/svg/503.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/css/bootstrappage.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/css/bootstrappage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/css/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/css/flexslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/css/jquery.fancybox.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/css/jquery.fancybox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/Headlogo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/Headlogo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/Headlogo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/Headlogo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/arrow-p.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/arrow-p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/arrow-pleft.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/arrow-pleft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-1" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-2old.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-2old.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-check1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/banner-check1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/bannerold-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/carousel/bannerold-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/35.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/clients/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/cloth/bootstrap-women-ware6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/feature_img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/feature_img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/feature_img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/feature_img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/feature_img_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/feature_img_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/gotop.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/gotop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11060970-03YZ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11060970-03YZ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11122925-3U2E.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11122925-3U2E.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11136117-2PYO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11136117-2PYO.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11139271-3ZN1b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11139271-3ZN1b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11142993-29M9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11142993-29M9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11143107-29M9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11143107-29M9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11143387-82Q8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11143387-82Q8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11143392-03YZ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/11143392-03YZ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/u97gzz61p73j5wcecsdvnetkl3a8g6lr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/ladies/u97gzz61p73j5wcecsdvnetkl3a8g6lr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/line_bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/line_bar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/m1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/m1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/m2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/m2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/m3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/m3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/m4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/m4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/m5.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/m5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/m6.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/m6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/pageBanner.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/pageBanner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/pageBanner.png1" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/pageBanner.png1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/project_img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/project_img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/project_img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/project_img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/project_img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/project_img4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/project_img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/project_img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/attachment_60112990.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/attachment_60112990.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/categories.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/categories.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/goran-ivos-387404-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/goran-ivos-387404-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/loadingok.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/loadingok.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/login.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/page-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/page-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/products.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/products.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/rawpixel-652547-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/images/widgets/rawpixel-652547-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/js/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/js/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/js/jquery-1.7.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/js/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/js/jquery.fancybox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/js/jquery.flexslider-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/js/jquery.flexslider-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/js/jquery.scrolltotop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/js/jquery.scrolltotop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/themes/js/superfish.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/themes/js/superfish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/icons-reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/icons-reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/voyager.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/voyager.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/voyager.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/voyager.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/voyager.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/voyager.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/voyager.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/fonts/voyager.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/captain-avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/captain-avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/compass/documentation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/compass/documentation.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/compass/hooks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/compass/hooks.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/compass/voyager-home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/compass/voyager-home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/helm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/helm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/large-logo-icon-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/large-logo-icon-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/large-logo-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/large-logo-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/logo-icon-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/logo-icon-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/logo-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/logo-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/voyager-character.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/voyager-character.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/voyager-character.sketch" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/voyager-character.sketch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/widget-backgrounds/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/widget-backgrounds/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/widget-backgrounds/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/widget-backgrounds/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/widget-backgrounds/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/images/widget-backgrounds/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/advlist/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/advlist/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/anchor/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/anchor/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/autolink/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/autolink/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/autoresize/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/autoresize/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/autosave/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/autosave/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/bbcode/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/bbcode/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/charmap/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/charmap/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/code/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/code/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/codesample/css/prism.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/codesample/css/prism.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/codesample/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/codesample/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/colorpicker/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/colorpicker/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/contextmenu/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/contextmenu/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/directionality/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/directionality/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-cool.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-cry.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-embarassed.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-foot-in-mouth.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-frown.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-innocent.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-kiss.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-laughing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-money-mouth.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-sealed.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-smile.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-surprised.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-tongue-out.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-undecided.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-wink.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-yell.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/emoticons/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/example/dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/example/dialog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/example/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/example/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/example_dependency/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/example_dependency/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/fullpage/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/fullpage/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/fullscreen/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/fullscreen/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/css/giphyPopup.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/css/giphyPopup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/giphy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/giphy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/clear.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/clear.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_128.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_38.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_logo_laser.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_logo_laser.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_logo_txt.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_logo_txt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_categories.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_categories.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_email.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_email.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_heart_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_heart_red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_heart_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_heart_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_link_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_link_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_reactions.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_reactions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_search.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_sms.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_sms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/loader_purple.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/loader_purple.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/GiphySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/GiphySearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/giphy_cms_ext.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/giphy_cms_ext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/jquery.xdomainrequest.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/jquery.xdomainrequest.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/masonry.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/masonry.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/newT.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/newT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/clear.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/clear.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/giphyicon20px.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/giphyicon20px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/giphyiconoff20px.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/giphyiconoff20px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/giphy/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/hr/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/hr/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/image/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/image/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/imagetools/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/imagetools/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/importcss/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/importcss/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/insertdatetime/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/insertdatetime/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/layer/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/layer/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/legacyoutput/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/legacyoutput/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/link/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/link/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/lists/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/lists/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/lists/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/lists/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/lists/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/lists/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/media/moxieplayer.swf" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/media/moxieplayer.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/media/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/media/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/nonbreaking/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/nonbreaking/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/noneditable/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/noneditable/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/pagebreak/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/pagebreak/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/paste/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/paste/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/preview/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/preview/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/print/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/print/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/save/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/save/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/searchreplace/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/searchreplace/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/spellchecker/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/spellchecker/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/tabfocus/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/tabfocus/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/table/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/table/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/template/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/template/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/textcolor/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/textcolor/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/textpattern/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/textpattern/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/toc/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/toc/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/visualblocks/css/visualblocks.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/visualblocks/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/visualblocks/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/visualchars/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/visualchars/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/wordcount/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/wordcount/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jQuery.jQTubeUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jQuery.jQTubeUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jquery.yt_data_v3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jquery.yt_data_v3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/modernizr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/mustache.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/mustache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/youtube.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/youtube.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/css/slide.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/css/slide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/css/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/css/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/js/bootstrap-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/js/bootstrap-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/less/slider.less" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/less/slider.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/template/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/template/forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/youtube.html" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/plugins/youtube/youtube.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/content.inline.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/anchor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/anchor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/object.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/object.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/trans.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/trans.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/skin.ie7.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/skin.ie7.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/lightgray/skin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/Variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/Variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/content.inline.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/img/anchor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/img/anchor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/img/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/img/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/img/object.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/img/object.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/img/trans.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/img/trans.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.ie7.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.ie7.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/themes/modern/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/vendor/tcg/voyager/assets/js/themes/modern/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/about_us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/about_us.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/emails/orders/mailorder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/emails/orders/mailorder.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/inc/message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/inc/message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/inc/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/inc/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/inc/related.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/inc/related.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/inc/search-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/inc/search-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/inc/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/inc/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/layouts..default/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/layouts..default/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/shop.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/thankyou.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/thankyou.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/bootstrap-4.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/bootstrap-4.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/semantic-ui.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/semantic-ui.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/simple-bootstrap-4.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/simple-bootstrap-4.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/simple-default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/pagination/simple-default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/partials/app-footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/partials/app-footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/partials/bulk-delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/partials/bulk-delete.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/partials/coordinates-static-image.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/partials/coordinates-static-image.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/partials/coordinates.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/partials/coordinates.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/products/browse.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/products/browse.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/products/edit-add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/resources/views/vendor/voyager/products/edit-add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/svg/403.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/svg/403.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/svg/404.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/svg/404.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/svg/500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/svg/500.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/svg/503.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/svg/503.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/testing/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/testing/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerce/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerce/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/custom/formerrorcolor.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.off</find>
+      <find>.col-sm-off</find>
+      <find>rr</find>
+      <find>dat</find>
+      <find>air</find>
+      <find>nav-</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../E-commerce" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../clienex/database/migrations/2019_03_01_051152_create_products_table.php" />
+        <option value="$PROJECT_DIR$/../clienex/database/migrations/2019_03_01_051221_create_orders_table.php" />
+        <option value="$PROJECT_DIR$/../clienex/database/migrations/2019_03_01_051303_create_inventories_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/mailable/send.blade.php" />
+        <option value="$PROJECT_DIR$/config/queue.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_02_28_050007_create_send_quotes_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/mailable/email.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Jobs/SendEmailJob.php" />
+        <option value="$PROJECT_DIR$/app/Mail/DartMail.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/Auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/Auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_02_103240_create_admins_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/Auth/core_admin/editAdmin.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/root.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/Auth/core_admin/adminList.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/Auth/core_admin/addAdmin.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/Auth/core_admin/_form.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/categories/shipping_type/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/categories/shipping_type/list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/categories/transport/list.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_02_23_092929_create_trackings_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tracking/create_tracking.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tracking/view_tracking.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/messages/flash.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TrackingController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SendQuoteController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/header.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ShippingController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/inc/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/public/admin/js/countrystatecities1.js" />
+        <option value="$PROJECT_DIR$/public/admin/js/core/countrystatecities2.js" />
+        <option value="$PROJECT_DIR$/resources/views/admin/shippment/_form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/shippment/create_shippment.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/inc/navbarcompany.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/company.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/layouts/faq.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/faq.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/contact_us.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/HomeController.php" />
+        <option value="$PROJECT_DIR$/public/user/main.css" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/inc/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/track.blade.php" />
+        <option value="$PROJECT_DIR$/public/custom/formerrorcolor.css" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/../E-commerce/package.json" />
+    <dismissed value="$PROJECT_DIR$/../clienex/package.json" />
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="16" />
+    <option name="y" value="16" />
+    <option name="width" value="1366" />
+    <option name="height" value="706" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="dartexptrip" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="dartexptrip" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dartexptrip" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dartexptrip" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dartexptrip" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dartexptrip" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dartexptrip" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dartexptrip" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dartdelivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dartdelivery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dartdelivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dartdelivery" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dartdelivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dartdelivery" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dartdelivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dartdelivery" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dartdelivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dartdelivery" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dartdelivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dartdelivery" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/admin/categories" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database/factories" />
+      <recent name="$PROJECT_DIR$/database/migrations" />
+      <recent name="$PROJECT_DIR$/public/admin/js/core" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cd73f60-b29d-458e-9f3e-4b9f480527a8" name="Default Changelist" comment="" />
+      <created>1550787749356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550787749356</updated>
+      <workItem from="1550787763782" duration="543000" />
+      <workItem from="1550863000808" duration="1374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1917000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="31" width="1368" height="708" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2061012" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32874015" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3464567" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.340388" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/ShippingController.php</url>
+          <line>77</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/Auth/core_admin/editAdmin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/Auth/core_admin/addAdmin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/Auth/core_admin/_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="201" lean-forward="true" selection-start-line="6" selection-start-column="201" selection-end-line="6" selection-end-column="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="57" column="76" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="76" />
+          <folding>
+            <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/Auth/core_admin/adminList.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/shipping_type/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/shipping_type/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="49" column="127" selection-start-line="49" selection-start-column="127" selection-end-line="49" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_23_092929_create_trackings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/shipping_type/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tracking/edit_tracking.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tracking/view_tracking.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/mailable/clients.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TrackingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SendQuoteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/mailable/send.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="26" column="121" selection-start-line="26" selection-start-column="121" selection-end-line="26" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="78" column="64" selection-start-line="78" selection-start-column="64" selection-end-line="78" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/transport/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="53" column="147" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="53" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tracking/create_tracking.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShippingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/messages/flash.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#4301#0#Blade" />
+            <element signature="e#0#3559#0#Blade" />
+            <element signature="e#0#3499#0#Blade" />
+            <element signature="e#0#2729#0#Blade" />
+            <element signature="e#0#1963#0#Blade" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/js/countrystatecities1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="296" lean-forward="true" selection-start-line="296" selection-end-line="296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/js/core/countrystatecities2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/shippment/_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1494">
+          <caret line="83" column="82" selection-start-line="83" selection-start-column="72" selection-end-line="83" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/shippment/create_shippment.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="49" column="127" selection-start-line="49" selection-start-column="127" selection-end-line="49" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1102">
+          <caret selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/user/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/root.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dart-express-master/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="161" column="10" selection-start-line="159" selection-start-column="1" selection-end-line="161" selection-end-column="10" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dart-express-master/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="132" selection-end-column="14" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/inc/navbarcompany.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/inc/navbarmaster.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/company.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dart-express-master/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="153" column="14" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="153" selection-end-column="14" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/layouts/faq.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/faq.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2264">
+          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dart-express-master/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="119" selection-end-column="14" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/contact_us.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/inc/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="75" column="82" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dart-express-master/track.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="109" column="14" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="109" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="82" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Frontend/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/track.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/inc/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/css/paper-dashboard.min790f.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/custom/formerrorcolor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
