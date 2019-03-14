@@ -37,7 +37,7 @@ class CreateShippingsTable extends Migration
             $table->string('receiver_city')->nullable();
             $table->string('receiver_state');
             $table->string('receiver_country');
-             $table->string('receiver_postal');
+            $table->string('receiver_postal');
 
             //parcel information
 

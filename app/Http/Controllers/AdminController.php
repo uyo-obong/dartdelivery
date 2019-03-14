@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Admin;
+use App\Role;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
@@ -12,6 +14,7 @@ class AdminController extends Controller
     public function __construct()
     {
         $this->middleware('auth:admin');
+        $this->middleware('can:view');
     }
 
     public function adminList()
@@ -22,22 +25,29 @@ class AdminController extends Controller
 
     public function viewAdmin()
     {
-        return view('admin.Auth.core_admin.addAdmin');
+
+
+        $roles = Role::all();
+        return view('admin.Auth.core_admin.addAdmin', compact('roles'));
     }
 
     public function storeAdmin(Request $request)
     {
+
+
         $this->validate($request, [
             'name'     => ['required', 'string', 'max:255'],
             'email'    => ['required', 'string', 'email', 'max:255', 'unique:admins'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
         ]);
 
-        Admin::create([
+        $admin = Admin::create([
             'name'     => $request['name'],
             'email'    => $request['email'],
             'password' => Hash::make($request['password']),
         ]);
+
+        $admin->role()->sync($request->role);
 
         return back()->with('Admin', 'Admin Has Been Added Successfully!.');
 

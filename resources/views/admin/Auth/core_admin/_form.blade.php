@@ -32,8 +32,22 @@
         </div>
     </div>
     <div class="col-md-12">
-    <small>{{ $notext ?? "Leave password empty if you don't want to chnage" }}</small>
+        <small>{{ $notext ?? "Leave password empty if you don't want to chnage" }}</small>
     </div>
+</div>
+
+<label><h6>Assign Role:</h6></label>
+<div class="row">
+    @foreach($roles as $role)
+    <div class="col-md-3">
+
+            <div class="form-group form-check-label">
+                <label ><input   name="role[]" data-off-color="primary"   type="checkbox" value="{{$role->id}}">
+                    <span class="form-check-sign"></span>
+                    {{ $role->name }}</label>
+            </div>
+    </div>
+    @endforeach
 </div>
 
 <div class="card-footer text-center">

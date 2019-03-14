@@ -80,6 +80,10 @@ Route::put('update-admin/{id}', 'AdminController@updateAdmin')->name('updateAdmi
 Route::get('admin-list', 'AdminController@adminList')->name('adminList');
 Route::delete('destroy/{id}', 'AdminController@destroy')->name('adminDestroy');
 
+//AdmiN Profile
+Route::get('admin-profile/{id}', 'AdminProfileController@profile')->name('adminprofile');
+Route::put('update-profile/{id}', 'AdminProfileController@update')->name('updateprofile');
+
 // Countries, States, Cities Dropdown
 Route::get('dropdownlist','DropdownController@index');
 Route::get('get-state-list','DropdownController@getStateList');

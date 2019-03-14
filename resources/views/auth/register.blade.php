@@ -27,7 +27,7 @@
                             <input type="email" name="email" value="{{ old('email') }}" class="form-control border border-top-0 rounded-0 border-left-0 border-right-0" id="validationCustom01" placeholder="Email" required email="true">
                         </div>
                         <div class="col-md-6 mb-3 form-group">
-                            <input type="tel" name="phone_number" value="{{ old('phone_number') }}" class="form-control phone border border-top-0 rounded-0 border-left-0 border-right-0"  placeholder="Phone Number" required="true">
+                            <input type="tel" name="phone_number" value="{{ old('phone_number') }}" class="form-control  border border-top-0 rounded-0 border-left-0 border-right-0"  placeholder="Phone Number" required="true">
                         </div>
                     </div>
 

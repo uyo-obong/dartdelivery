@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../E-commerce/.idea/E-commerce.iml" filepath="$PROJECT_DIR$/../E-commerce/.idea/E-commerce.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../clienex/.idea/clienex.iml" filepath="$PROJECT_DIR$/../clienex/.idea/clienex.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dartexptrip.iml" filepath="$PROJECT_DIR$/.idea/dartexptrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eelspace/.idea/eelspace.iml" filepath="$PROJECT_DIR$/../eelspace/.idea/eelspace.iml" />
     </modules>
   </component>
 </project>

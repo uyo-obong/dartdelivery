@@ -14,7 +14,7 @@
                             {{ csrf_field() }}
                             {{ method_field('get')}}
                             <div class="input-group">
-                                <input type="text" name="track" class="form-control border border-right-0" placeholder="Tracking Number">
+                                <input type="text" name="track" class="form-control border border-right-0" placeholder="Tracking Number" required>
 
                                 <span class="input-group-btn">
                                    <button class="btn btn-primary track" type="submit">TRACK</button>

@@ -1,5 +1,28 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+{{--Admin Profile--}}
+@if (Session()->has('AdminProfile'))
+    <script>
+        window.addEventListener('load', function(event) {
+            const swalWithBootstrapButtons = Swal.mixin({
+                confirmButtonClass: 'btn btn-success',
+                cancelButtonClass: 'btn btn-danger',
+                buttonsStyling: false,
+            });
+
+            swalWithBootstrapButtons.fire({
+                title: 'Successfull!',
+                text: '{{ session()->get('AdminProfile') }}',
+                type: 'success',
+                confirmButtonText: 'OK'
+            }).then((result) => {
+                if (result.value) {
+                    window.location.href = "/cpanel";
+                }
+            })
+        })
+    </script>
+@endif
 
 {{-- User Shipping --}}
 @if (Session()->has('Usershipping'))

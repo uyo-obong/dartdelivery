@@ -8,22 +8,22 @@ body {
 }
 
 .active {
-  border:solid blue !important;
+  border:solid #007bff !important;
   border-top:1px;
   border-left:0px !important;
   border-right:0px !important;
   border-bottom:0px !important;
-  color:blue !important;
+  color: #007bff !important;
   transition: ease-in 0.3s !important; 
   
 }
 .nav-item:hover {
-  border:solid blue !important;
+  border:solid #007bff !important;
   border-top:1px;
   border-left:0px !important;
   border-right:0px !important;
   border-bottom:0px !important;
-  color:blue !important;
+  color: #007bff !important;
   transition: ease-in 0.3s !important; 
 }
 .nav-link {
@@ -33,7 +33,7 @@ body {
   color:white !important;
 }
 .nav-link:hover {
-  color:blue !important;
+  color: #007bff !important;
 }
 /* styling for home page header */
 #header {
@@ -150,7 +150,7 @@ body {
   font-size: 20px !important;
 }
 .company_head:hover {
- color:blue
+ color: #007bff
 }
 .middle {
   transition: .5s ease;
@@ -192,7 +192,7 @@ body {
 }
 
 .text {
-  background-color: blue;
+  background-color: #007bff;
   color: white;
   font-size: 16px;
   padding: 10px 20px;

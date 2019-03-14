@@ -8,7 +8,7 @@
                 <img src="{{ URL::to('images/logo1.png') }}">
             </div>
         </a>
-        <a href="/dashboard" class="simple-text logo-normal">
+        <a href="/cpanel" class="simple-text logo-normal">
             <div style="padding-right: 23%;" class="logo-image-big">
                 <img src="{{ URL::to('images/logo1.png') }}">
             </div>
@@ -29,14 +29,14 @@
                 <div class="clearfix"></div>
                 <div class="collapse" id="collapseExample">
                     <ul class="nav">
+                        {{--<li>--}}
+                            {{--<a href="#">--}}
+                                {{--<span class="sidebar-mini-icon">MP</span>--}}
+                                {{--<span class="sidebar-normal">My Profile</span>--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
                         <li>
-                            <a href="#">
-                                <span class="sidebar-mini-icon">MP</span>
-                                <span class="sidebar-normal">My Profile</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                            <a href="{{ route('adminprofile', Auth::user()->id) }}">
                                 <span class="sidebar-mini-icon">EP</span>
                                 <span class="sidebar-normal">Edit Profile</span>
                             </a>
@@ -140,32 +140,33 @@
                     </ul>
                 </div>
             </li>
-
-            <li class="{{ request()->is('add-new-admin') || request()->is('admin-list') ? 'active' : '' }}">
-                <a data-toggle="collapse" href="#formsExamples">
-                    <i class="nc-icon nc-single-02"></i>
-                    <p>
-                        Admins
-                        <b class="caret"></b>
-                    </p>
-                </a>
-                <div class="collapse " id="formsExamples">
-                    <ul class="nav">
-                        <li class="{{ request()->is('add-new-admin') ? 'active' : '' }}">
-                            <a href="{{ route('viewAdmin') }}">
-                                <span class="sidebar-mini-icon">AN</span>
-                                <span class="sidebar-normal"> Add New </span>
-                            </a>
-                        </li>
-                        <li class="{{ request()->is('admin-list') ? 'active' : '' }}">
-                            <a href="{{ route('adminList') }}">
-                                <span class="sidebar-mini-icon">UA</span>
-                                <span class="sidebar-normal"> Update Admin </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
+            @can('view', Auth::user())
+                <li class="{{ request()->is('add-new-admin') || request()->is('admin-list') ? 'active' : '' }}">
+                    <a data-toggle="collapse" href="#formsExamples">
+                        <i class="nc-icon nc-single-02"></i>
+                        <p>
+                            Admins
+                            <b class="caret"></b>
+                        </p>
+                    </a>
+                    <div class="collapse " id="formsExamples">
+                        <ul class="nav">
+                            <li class="{{ request()->is('add-new-admin') ? 'active' : '' }}">
+                                <a href="{{ route('viewAdmin') }}">
+                                    <span class="sidebar-mini-icon">AN</span>
+                                    <span class="sidebar-normal"> Add New </span>
+                                </a>
+                            </li>
+                            <li class="{{ request()->is('admin-list') ? 'active' : '' }}">
+                                <a href="{{ route('adminList') }}">
+                                    <span class="sidebar-mini-icon">UA</span>
+                                    <span class="sidebar-normal"> Update Admin </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            @endcan
 
         </ul>
     </div>

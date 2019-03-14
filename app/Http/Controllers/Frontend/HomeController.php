@@ -87,7 +87,7 @@ class HomeController extends Controller
             'status'                => 'required',
             'weight'                => 'required',
             'type_id'               => 'required',
-            'shipper_email'          => 'required',
+            'shipper_email'         => 'required',
             'transport_id'          => 'required',
             'shipper_firstN'        => 'required',
             'shipper_lastN'         => 'required',
@@ -102,10 +102,9 @@ class HomeController extends Controller
             'shipper_country'       => 'required',
             'receiver_country'      => 'required',
             'receiver_address'      => 'required',
-            'receiver_phone' => 'required',
-            'shipper_phone'  => 'required',
-            'shipper_postal' => 'required'
-
+            'receiver_phone'        => 'required',
+            'shipper_phone'         => 'required',
+            'shipper_postal'        => 'required'
 
         ]);
         

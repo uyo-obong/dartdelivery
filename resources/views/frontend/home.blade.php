@@ -15,7 +15,7 @@
                         {{ csrf_field() }}
                         {{ method_field('get')}}
                         <div class="input-group">
-                            <input type="text" name="track" class="form-control border border-right-0" placeholder="Tracking Number">
+                            <input type="text" name="track" class="form-control border border-right-0" placeholder="Tracking Number" required>
 
                             <span class="input-group-btn">
                              <button class="btn btn-primary track" type="submit">TRACK</button>
@@ -76,8 +76,8 @@
            </div>
        </div>
        <div class="row pb-5 mx-auto">
-            <div class="col-md-4 mb-3 max-auto">
-            <div class="card max-auto text-center" style="width: auto;height:17rem;">
+            <div class="col-md-4 mb-3 mx-auto">
+            <div class="card mx-auto text-center" style="width: auto;height:17rem;">
                 <div class="card-body mt-4 max-auto">
                     <i class="fab fa-typo3 service_icon text-danger"></i>
                     <h4 class="card-title card_head pt-2 pb-2">Premium Support</h4>
@@ -87,7 +87,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-3">
-            <div class="card max-auto text-center" style="width: auto;height:17rem;">
+            <div class="card mx-auto text-center" style="width: auto;height:17rem;">
                 <div class="card-body mt-4">
                     <i class="fas fa-bolt service_icon text-primary"></i>
                     <h4 class="card-title card_head pt-2 pb-2">COURIER EXPRESS</h4>
@@ -97,7 +97,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-3">
-            <div class="card max-auto text-center" style="width: auto;height:17rem;">
+            <div class="card mx-auto text-center" style="width: auto;height:17rem;">
                 <div class="card-body mt-4">
                     <i class="fas fa-bookmark service_icon text-secondary "></i>
                     <h4 class="card-title card_head pt-2 pb-2">COURIER NORMAL</h4>
