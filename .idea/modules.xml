@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dartexptrip.iml" filepath="$PROJECT_DIR$/.idea/dartexptrip.iml" />
       <module fileurl="file://$PROJECT_DIR$/../eelspace/.idea/eelspace.iml" filepath="$PROJECT_DIR$/../eelspace/.idea/eelspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project1/.idea/project1.iml" filepath="$PROJECT_DIR$/../project1/.idea/project1.iml" />
     </modules>
   </component>
 </project>

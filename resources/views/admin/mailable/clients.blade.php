@@ -35,7 +35,7 @@
                             @foreach($clients as $client)
                                 <tr>
                                     <td>{{ $loop->index + 1 }}</td>
-                                    <td>{{ $client->shipper_name }}</td>
+                                    <td>{{ $client->shipper_firstN }}</td>
                                     <td>{{ $client->shipper_address }}</td>
                                     <td>{{ $client->tracking_no }}</td>
                                     <td>

@@ -14,8 +14,8 @@
                         <form id="RangeValidation" class="form-horizontal" action="{{ route('sendMail') }}" method="POST">
                             {{ csrf_field() }}
 
-                            <input type="hidden" name="name" value="{{ $client->shipper_name }}">
-                            <input type="hidden" name="email" value="{{ $client->sender_email }}">
+                            <input type="hidden" name="name" value="{{ $client->shipper_firstN }}">
+                            <input type="hidden" name="email" value="{{ $client->shipper_email }}">
                             <input type="hidden" name="address" value="{{ $client->receiver_address }}">
                             <input type="hidden" name="type" value="{{ $client->type->name }}">
                             {{--<div class="form-group">--}}

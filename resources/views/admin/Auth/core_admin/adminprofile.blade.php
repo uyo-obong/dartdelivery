@@ -38,6 +38,8 @@
                     </div>
                 </div>
 
+                @include('messages.flash')
+
             </div>
             <div class="col-md-8">
                 <div class="card">
@@ -84,7 +86,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Password</label>
-                                        <input id="password" type="password" value="{{  $admins->password }}" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="Enter Password" pattern=".{6,}"   title="6 characters minimum" >
+                                        <input type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="Enter Password" pattern=".{6,}"   title="6 characters minimum" >
 
                                         @if ($errors->has('password'))
                                             <span class="invalid-feedback" role="alert">
@@ -99,7 +101,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Re-type Password</label>
-                                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" value="{{  $admins->password }}"  placeholder="Retype Password">
+                                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation"  placeholder="Retype Password">
                                     </div>
                                 </div>
                             </div>

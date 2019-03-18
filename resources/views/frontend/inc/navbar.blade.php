@@ -26,7 +26,7 @@
             </li>
             @guest
             @if (Route::has('register'))
-            <li class="nav-item">
+            <li class="nav-item {{ request()->is('register') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('register') }}">Sign up</a>
             </li>
             @endif

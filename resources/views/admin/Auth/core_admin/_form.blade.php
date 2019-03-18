@@ -16,7 +16,7 @@
 <div class="row">
     <div class="col-md-6">
         <div class="form-group">
-            <input id="password" type="password" value="{{  $viewAdmin->password }}" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="Enter Password" pattern=".{6,}"   title="6 characters minimum" >
+            <input  type="password"  class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="Enter Password" pattern=".{6,}"   title="6 characters minimum" >
 
             @if ($errors->has('password'))
                 <span class="invalid-feedback" role="alert">
@@ -28,25 +28,30 @@
 
     <div class="col-md-6">
         <div class="form-group">
-            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" value="{{  $viewAdmin->password }}"  placeholder="Retype Password">
+            <input  type="password" class="form-control" name="password_confirmation"   placeholder="Retype Password">
         </div>
     </div>
     <div class="col-md-12">
         <small>{{ $notext ?? "Leave password empty if you don't want to chnage" }}</small>
     </div>
 </div>
-
+<br>
 <label><h6>Assign Role:</h6></label>
 <div class="row">
     @foreach($roles as $role)
-    <div class="col-md-3">
+        <div class="col-md-4">
 
             <div class="form-group form-check-label">
-                <label ><input   name="role[]" data-off-color="primary"   type="checkbox" value="{{$role->id}}">
+                <label><input   name="role[]" data-off-color="primary"   type="checkbox" value="{{ old('role[]') ?? $role->id}}"
+                    @foreach($viewAdmin->role as $admin)
+                        {{ $admin->id == $role->id ? 'checked' : '' }}
+                            @endforeach
+                    >
                     <span class="form-check-sign"></span>
                     {{ $role->name }}</label>
             </div>
-    </div>
+
+        </div>
     @endforeach
 </div>
 

@@ -86,6 +86,7 @@ class HomeController extends Controller
             'qty'                   => 'required',
             'status'                => 'required',
             'weight'                => 'required',
+            'terms'                 => 'required',
             'type_id'               => 'required',
             'shipper_email'         => 'required',
             'transport_id'          => 'required',
@@ -95,7 +96,7 @@ class HomeController extends Controller
             'shipper_state'         => 'required',
             'receiver_firstN'       => 'required',
             'receiver_lastN'        => 'required',
-            'receiver_postal'       =>  'required',
+            'receiver_postal'       => 'required',
             'receiver_city'         => 'required',
             'receiver_state'        => 'required',
             'shipper_address'       => 'required',
@@ -150,7 +151,7 @@ class HomeController extends Controller
     {
         return view('frontend.company');
     }
-
+    
     public function faq()
     {
         return view('frontend.faq');

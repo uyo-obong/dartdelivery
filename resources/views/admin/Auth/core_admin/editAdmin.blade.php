@@ -16,7 +16,9 @@
                             {{ method_field('put') }}
 
                             @include('admin.Auth.core_admin._form', [
-                                'editAdmin' => 'Update Profile'
+                                'editAdmin' => 'Update Profile',
+
+
                             ])
 
 

@@ -7,6 +7,7 @@ use App\Role;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
 
 class AdminController extends Controller
@@ -19,8 +20,12 @@ class AdminController extends Controller
 
     public function adminList()
     {
+        $alladmin = Role::all();
         $admins = Admin::all();
-        return view('admin.Auth.core_admin.adminList', ['admins' => $admins]);
+        return view('admin.Auth.core_admin.adminList', [
+            'admins' => $admins,
+            'alladmin' => $alladmin,
+        ]);
     }
 
     public function viewAdmin()
@@ -55,13 +60,19 @@ class AdminController extends Controller
 
     public function editAdmin($id)
     {
+        $roles   = Role::all();
         $viewAdmin = Admin::where('id', $id)->first();
-        return view('admin.Auth.core_admin.editAdmin', [ 'viewAdmin' => $viewAdmin]);
+        return view('admin.Auth.core_admin.editAdmin', [
+            'viewAdmin' => $viewAdmin,
+            'roles'     => $roles
+        ]);
     }
 
 
     public function updateAdmin(Request $request, $id)
     {
+//        dd($request->all());
+
         $this->validate($request, [
             'name'     => ['required', 'string', 'max:255'],
             'password' => ['confirmed'],
@@ -70,13 +81,16 @@ class AdminController extends Controller
 
         $updateAdmmin = Admin::where('id', $id)->first();
         $updateAdmmin->name  = $request->name;
-        if ($request->password ||  $request->has('email'))
-        {
-            $updateAdmmin->email = $request->email;
-            $updateAdmmin->password = Hash::make($request->password);
+        $updateAdmmin->email  = $request->email;
+
+        if (trim(Input::get('password')) != '') {
+            $updateAdmmin->password = Hash::make(trim(Input::get('password')));
         }
 
+        //dd($updateAdmmin);
         $updateAdmmin->save();
+
+        $updateAdmmin->role()->sync($request->input('role'));
 
         return back()->with('Admin', 'Admin Has Been Updated Successfully!.');
 

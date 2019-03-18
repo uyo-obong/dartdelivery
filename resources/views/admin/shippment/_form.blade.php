@@ -65,7 +65,7 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <input class="form-control" type="text" name="shipper_postal" value="{{ old('shipper_postal') ?? $shipment->shipper_postal }}" placeholder="shipper_postal" required="true" />
+                    <input class="form-control" type="text" name="shipper_postal" value="{{ old('shipper_postal') ?? $shipment->shipper_postal }}" placeholder="Postal Code" required="true" />
                 </div>
             </div>
         </div>

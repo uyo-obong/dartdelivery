@@ -6,7 +6,8 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">Admin List</h4>
+                        <h4 class="card-title float-left">Admin List</h4>
+                        <a class="card-title float-right btn btn-outline-primary" href="{{ route('viewAdmin') }}">Add New</a>
                     </div>
                     <div class="card-body">
                         <div class="toolbar">
@@ -18,6 +19,7 @@
                                 <th>N/S</th>
                                 <th>Name</th>
                                 <th>Email Address</th>
+                                <th>Admin Role</th>
                                 <th>Date</th>
                                 <th class="disabled-sorting text-right">Actions</th>
                             </tr>
@@ -27,6 +29,7 @@
                                 <th>N/S</th>
                                 <th>Name</th>
                                 <th>Email Address</th>
+                                <th>Admin Role</th>
                                 <th>Date</th>
                                 <th class="disabled-sorting text-right">Actions</th>
                             </tr>
@@ -37,6 +40,13 @@
                                     <td>{{ $loop->index + 1 }}</td>
                                     <td>{{ $admin->name }}</td>
                                     <td>{{ $admin->email }}</td>
+
+                                    <td>
+                                        @foreach($alladmin as $role)
+                                            {{ $admin->id == $role->id ? $role->name : ''}}
+                                        @endforeach
+                                    </td>
+
                                     <td>{{ $admin->created_at->diffForHumans() }}</td>
                                     <td class="text-right">
                                         {{--<a href="#" class="btn btn-info btn-link btn-icon btn-sm like"><i class="fa fa-heart"></i></a>--}}

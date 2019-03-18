@@ -6,6 +6,7 @@ use App\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Input;
 
 class AdminProfileController extends Controller
 {
@@ -30,15 +31,15 @@ class AdminProfileController extends Controller
 
         $updateAdmmin = Admin::where('id', $id)->first();
         $updateAdmmin->name  = $request->name;
-        if ($request->password ||  $request->has('email'))
-        {
-            $updateAdmmin->email = $request->email;
-            $updateAdmmin->password = Hash::make($request->password);
+        $updateAdmmin->email = $request->email;
+
+        if (trim(Input::get('password')) != '') {
+            $updateAdmmin->password = Hash::make(trim(Input::get('password')));
         }
 
         $updateAdmmin->save();
 
-        return back()->with('AdminProfile', 'Your Profile Has Been Updated.');
+        return redirect()->back()->with('AdminProfile', 'Your Profile Has Been Updated.');
 
     }
 }

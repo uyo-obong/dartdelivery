@@ -41,7 +41,7 @@
 								<input type="email" name="shipper_email" value="{{ old('shipper_email') ?? $users->email }}" class="form-control" placeholder="Enter E-mail Address" email="true">
 							</div>
 							<div class="col form-group">
-								<input type="number" name="shipper_phone" value="{{ old('shipper_phone') ?? $users->phone_number }}" class="form-control" placeholder="Enter Phone Number" required="true">
+								<input type="text" name="shipper_phone" value="{{ old('shipper_phone') ?? $users->phone_number }}" class="form-control" placeholder="Enter Phone Number" required="true">
 							</div>
 						</div>
 						<section>
@@ -87,7 +87,7 @@
 						<div class="form-row mb-4">
 
 							<div class="col form-group">
-								<input type="number" name="receiver_phone" value="{{ old('receiver_phone') }}" class="form-control" placeholder="Enter Phone Number" required="true">
+								<input type="text" name="receiver_phone" value="{{ old('receiver_phone') }}" class="form-control" placeholder="Enter Phone Number" required="true">
 							</div>
 						</div>
 						<section>
@@ -117,7 +117,7 @@
 								<input type="text" name="receiver_address" value="{{ old('receiver_address') }}" class="form-control" placeholder="Enter Address" required="true">
 							</div>
 							<div class="col form-group">
-								<input type="number" name="receiver_postal" value="{{ old('receiver_postal') }}" class="form-control" placeholder="Enter Postal Code" required="true">
+								<input type="text" name="receiver_postal" value="{{ old('receiver_postal') }}" class="form-control" placeholder="Enter Postal Code" required="true">
 							</div>
 						</div>
 
@@ -156,21 +156,27 @@
 						</div>
 
 						<div class="form-row">
-							<div class="col form-group">
+							<div class="col form-group{{ $errors->has('terms') ? ' has-error' : '' }}">
 								<div class="form-check">
 									<label class="form-check-label">
-										<input class="form-check-input" type="checkbox">Agree to the <a href="">Tearms and conditions</a>
+										<input class="form-check-input" name="terms" type="checkbox">Agree to the <a href="">Tearms and conditions</a>
 									</label>
 								</div>
+								@if ($errors->has('terms'))
+									<span class="help-block">
+                                            <strong class="terms">{{ $errors->first('terms') }}</strong>
+                                        </span>
+								@endif
 							</div>
 
 							<div  class="col">
 								<button class="btn btn-primary">Register Now</button>
 							</div>
 					</form>
-					<br>
-					<br>
 				</div>
+				<br>
+				<br>
+				<br>
 			</div>
 			<div class="col-md-4">
 				<ul class="list-group text-center ">

@@ -290,3 +290,10 @@ body {
   background-size: cover;
   background-position: center cover;
 }
+
+#pasreset {
+  background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('/images/user/or.jpg');
+  height: 873px;
+  background-size: cover;
+  background-position: center cover;
+}

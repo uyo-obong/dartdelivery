@@ -88,5 +88,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="eelspace" />
+    <orderEntry type="module" module-name="project1" />
   </component>
 </module>
