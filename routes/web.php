@@ -12,23 +12,25 @@
 */
 
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 //User Route
+
+Route::group(['middleware' => ['auth']], function () {
+	Route::post('send', 'Frontend\HomeController@store')->name('homeStore');
+	Route::get('send-parcel', 'Frontend\HomeController@delivery')->name('homeDelivery');
+	Route::get('progress', 'Frontend\HomeController@progress')->name('homeprogress');
+});
 Route::get('/', 'Frontend\HomeController@index')->name('homeIndex');
 Route::get('track', 'Frontend\HomeController@track')->name('hometrack');
-Route::get('confirm', 'Frontend\HomeController@confirm')->name('homeconfirm');
+// Route::get('confirm', 'Frontend\HomeController@confirm')->name('homeconfirm');
 Route::get('company', 'Frontend\HomeController@company')->name('homecompany');
 Route::get('faq', 'Frontend\HomeController@faq')->name('homefaq');
 Route::get('contact-us', 'Frontend\HomeController@contactUs')->name('homeContactUs');
-Route::get('progress', 'Frontend\HomeController@progress')->name('homeprogress');
 Route::get('invalid-tracking-number', 'Frontend\HomeController@invalid')->name('homeInvalid');
-Route::get('send-parcel', 'Frontend\HomeController@delivery')->name('homeDelivery');
-Route::post('send', 'Frontend\HomeController@store')->name('homeStore');
 Route::get('details', 'Frontend\HomeController@details')->name('homeDetails');
 Route::delete('homedelete/{id}',  'Frontend\HomeController@destroy')->name('homeDestroy');
-
-
 
 //Shipment Route
 Route::get('/cpanel', 'DashboardController@index')->name('cpanel');
@@ -42,6 +44,10 @@ Route::delete('destroyshipment/{id}', 'ShippingController@destroyShipment')->nam
 Route::get('tracking', 'TrackingController@tracking')->name('view.tracking');
 Route::get('tracking/{id}', 'TrackingController@index')->name('tracking');
 Route::post('add-tracking', 'TrackingController@create')->name('create_tracking');
+
+//Send Tracking Number To Client
+Route::get('tracking-number', 'SendTrackingController@index')->name('sendIndex');
+Route::post('send-tracking/{id}', 'SendTrackingController@send')->name('sendNo');
 
 //Shipping Type
 Route::get('add-shipping-type', 'DashboardController@shippingType')->name('shippingType');
@@ -91,8 +97,6 @@ Route::get('get-city-list','DropdownController@getCityList');
 
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 
 

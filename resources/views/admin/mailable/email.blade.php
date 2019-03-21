@@ -209,7 +209,6 @@
                             </tr>
                         </table>
 
-
                         <table class="force-full-width" cellspacing="0" cellpadding="30" bgcolor="#ebebeb">
                             <tr>
                                 <td class="mobile-block" style="width: 170px; vertical-align:top;">
